@@ -6,7 +6,7 @@ DICTIONARY_PATH = "10kwords.txt"
 NUM_DOCS = 3000
 NUM_QUERIES = NUM_DOCS
 QUERY_WORDS_RANGE = (3, 6)
-DOC_WORDS_RANGE = (300, 300)
+DOC_WORDS_RANGE = (5000, 5000)
 
 def load_dictionary(dict_path):
     with open(dict_path, "r", encoding="utf-8") as f:
